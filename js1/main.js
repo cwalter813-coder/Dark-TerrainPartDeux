@@ -11,7 +11,7 @@ function createMap(){
     var mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}';
     
     //URL used for Custom MapBox Style
-    var mbStyleUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/256/{z}/{x}/{y}?access_token={token}'; s
+    var mbStyleUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/256/{z}/{x}/{y}?access_token={token}';
     
     //For Custome basemaps - Replace your username and StyleID
     var customeBasemap = L.tileLayer(mbStyleUrl, {id: 'cory-walter/ckhmt0eh9077r19luge8ms28o', token: apitoken,  attribution: mbAttr});
